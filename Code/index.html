@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Abhay Chauhan's Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+
+    <div id="vanta-bg" style="position: fixed; top: 0; left: 0; width: 100%; height: 100%; z-index: -1;"></div>
+
+
+
+
+    <nav class="navbar">
+        <ul class="link-group">
+            <li class="link active"><a href="#home">home</a></li>
+            <li class="link"><a href="#projects">projects</a></li>
+            <li class="link"><a href="#about">about</a></li>
+            <li class="link"><a href="#contact">contact</a></li>
+        </ul>
+    </nav>
+
+    <section class="home-section active" id="home">
+        <div class="home-content">
+            <h1 class="hero-heading">hello, i am <br> Abhay Chauhan</h1>
+            <img src="img/home.jpg" class="home-img" alt="Abhay Chauhan">
+        </div>
+    </section>
+
+
+<section class="project-section" id="projects">
+    <h1 class="project-heading">Some of My Projects</h1>
+    <div class="project-container">
+        <div class="project-card">
+            <div class="project-content">
+                <h2 class="project-title">Web Development Project</h2>
+                <p class="project-info">
+                    Developed a responsive website using HTML5, CSS3, JavaScript, and ReactJS. Integrated with a backend API for dynamic content retrieval and implemented AWS for hosting.
+                </p>
+            </div>
+        </div>
+        <div class="project-card">
+     
+            <div class="project-content">
+                <h2 class="project-title">Database Management Project</h2>
+                <p class="project-info">
+                    Designed and implemented a database system using SQL and integrated it with a web application to manage user data efficiently. Utilized Docker for containerization.
+                </p>
+            </div>
+        </div>
+        <div class="project-card">
+           
+            <div class="project-content">
+                <h2 class="project-title">Mobile App Development</h2>
+                <p class="project-info">
+                    Created a cross-platform mobile application using Swift for iOS and Java for Android, focusing on UI/UX principles. The app features integration with APIs for live data.
+                </p>
+            </div>
+        </div>
+        <div class="project-card">
+           
+            <div class="project-content">
+                <h2 class="project-title">API Integration Project</h2>
+                <p class="project-info">
+                    Developed a project that integrates multiple external APIs to fetch and display data dynamically. Implemented error handling and optimized for performance and scalability.
+                </p>
+            </div>
+        </div>
+    </div>
+
+</section>
+
+<section class="about-section" id="about">
+    <div class="about">
+        <div class="about-img-container">
+            <img src="img/home.jpg" class="about-img" alt="Abhay Chauhan">
+            <a href="https://docs.google.com/document/d/1AGT845HW6b5uEc942LgHZjerns1S1IeG3G1Y9e-hMgM/edit?usp=sharing" class="download-cv-btn" target="_blank">Download CV</a>
+        </div>
+        <p class="about-info">
+            Currently pursuing a Computer Science degree at George Mason University, I am dedicated to mastering programming languages such as Python, Java, C++, and Swift. With a passion for innovation, I seek to contribute to impactful technological solutions through challenging internships. My experience as a Private Tutor and Learning Assistant has equipped me with a strong foundation in mathematical principles and the application of computer science concepts, preparing me to excel in the tech industry. I am experienced in web development, database management, and software development, holding an AWS Certified Developer – Associate certificate and driven by a commitment to continuous learning and excellence.
+        </p>
+    </div>
+
+
+    
+
+    <div class="timeline">
+        <h1 class="heading">education and experience</h1>
+        <div class="card">
+            <div class="card-body">
+                <h1 class="card-title">George Mason University | Computer Science | Expected Dec 2025</h1>
+                <p class="card-detail">Pursuing a Bachelor's degree in Computer Science, focusing on Object-Oriented Programming, Advanced Java, Advanced Python, Low-Level Programming, and Essentials of Computer Science.</p>
+            </div>
+        </div>
+        <div class="card">
+            <div class="card-body">
+                <h1 class="card-title">Private Tutor | Fairfax, VA | 08/2020 - Present</h1>
+                <p class="card-detail">Specializing in tutoring high school students in Mathematics and Computer Science, including AP courses like AP Computer Science A and AP Calculus.</p>
+            </div>
+        </div>
+        <div class="card">
+            <div class="card-body">
+                <h1 class="card-title">Learning Assistant, George Mason University | 08/2023 - 12/2023</h1>
+                <p class="card-detail">Facilitated calculus learning for students, offering support through tutoring sessions, problem-solving workshops, and exam preparation.</p>
+            </div>
+        </div>
+        <div class="card">
+            <div class="card-body">
+                <h1 class="card-title">Dealership Representative, Farrish Chrysler Jeep Dodge Ram | 06/2022 - 04/2023</h1>
+                <p class="card-detail">Managed front desk operations, contributing to an increase in customer satisfaction ratings through effective coordination and support.</p>
+            </div>
+        </div>
+    </div>
+</section>
+
+
+<!-- contact section -->
+<section class="contact-section" id="contact">
+    <h2>Contact Me</h2>
+    <p>If you have any questions or would like to get in touch, please feel free to contact me.</p>
+    <ul class="contact-info">
+        <li>Email: <a href="mailto:Abhaychauhanbiz@gmail.com">Abhaychauhanbiz@gmail.com</a></li>
+        <li>Phone: <a href="tel:+15714572155">571-457-2155</a></li>
+    </ul>
+</section>
+
+    
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r134/three.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/vanta/0.5.21/vanta.net.min.js"></script>
+  
+    <script>
+        VANTA.NET({
+          el: "#vanta-bg", 
+          mouseControls: true,
+          touchControls: true,
+          gyroControls: false,
+          minHeight: 200.00,
+          minWidth: 200.00,
+          scale: 1.00,
+          scaleMobile: 1.00,
+          color: 0x1688f5,
+          backgroundColor: 0x0
+        })
+    </script>
+    <script src="app.js"></script>
+
+</body>
+</html>
